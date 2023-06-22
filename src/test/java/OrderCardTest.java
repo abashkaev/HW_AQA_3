@@ -14,6 +14,5 @@ public class OrderCardTest {
         $(".button__content .button__text").click();
 
         $("[data-test-id=order-success]").shouldHave(Condition.exactText("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
-        sleep(5000);
     }
 }
